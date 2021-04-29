@@ -1,11 +1,14 @@
+[Modified from the android-rpi original to use the automotive specific config]
+
 # Download Android source with local_manifests
  Refer to http://source.android.com/source/downloading.html
 
+
  $ repo init -u https://android.googlesource.com/platform/manifest -b android-12.1.0_r2
- $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b arpi-12
+ $ git clone https://github.com/snappautomotive/firmware_rpi-local_manifests .repo/local_manifests -b sa-arpi-12
  $ repo sync
 
 # Build for Raspberry Pi 4
- https://github.com/android-rpi/device_arpi_rpi4
+ https://github.com/snappautomotive/firmware-device_snappautomotive_rpi/tree/sa-arpi-12
 
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
