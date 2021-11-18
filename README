@@ -4,7 +4,7 @@
  Refer to http://source.android.com/source/downloading.html
 
  $ repo init -u https://android.googlesource.com/platform/manifest -b android11-qpr3-release
- $ git clone https://github.com/snappautomotive/firmware_rpi-local_manifests .repo/local_manifests -b sa-main
+ $ git clone https://github.com/snappautomotive/firmware_rpi-local_manifests .repo/local_manifests -b sa-arpi-11
  $ repo sync
 
 # Build for Raspberry Pi 4
