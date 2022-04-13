@@ -5,7 +5,7 @@
 
 
  $ repo init -u https://android.googlesource.com/platform/manifest -b android-12.1.0_r2
- $ git clone https://github.com/snappautomotive/firmware_rpi-local_manifests .repo/local_manifests -b sa-arpi-12
+ $ git clone https://github.com/snappautomotive/firmware_rpi-local_manifests .repo/local_manifests -b sa-arpi-12L
  $ repo sync
 
 # Build for Raspberry Pi 4
