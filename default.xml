@@ -14,12 +14,11 @@
   <project path="external/libdrm" name="platform/external/libdrm" revision="android-s-v2-beta-3"/>
 
   <project path="hardware/arpi" name="hardware_arpi" revision="arpi-12" remote="arpi"/>
-  <project path="device/arpi/rpi4" name="device_arpi_rpi4" revision="arpi-12" remote="arpi"/>
 
   <!-- Snapp Automotive -->
 
   <project path="device/snappautomotive/common" name="firmware-device_snappautomotive_common" remote="snappautomotive" />  
-  <project path="device/snappautomotive/rpi" name="firmware-device_snappautomotive_rpi" remote="snappautomotive" />
+  <project path="device/snappautomotive/rpi" name="firmware-device_snappautomotive_rpi" remote="snappautomotive" revision="sa-arpi-12L" />
   <project path="vendor/snappautomotive/packages/maps" name="firmware-vendor_snappautomotive_packages_maps" remote="snappautomotive" />
 
 </manifest>
