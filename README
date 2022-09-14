@@ -9,6 +9,6 @@
  $ repo sync
 
 # Build for Raspberry Pi 4
- https://github.com/snappautomotive/firmware-device_snappautomotive_rpi/tree/sa-arpi-12
+ https://github.com/snappautomotive/firmware-device_snappautomotive_rpi/tree/sa-arpi-12L
 
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
