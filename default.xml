@@ -19,8 +19,8 @@
 
   <!-- Snapp Automotive -->
 
-  <project path="device/snappautomotive/common" name="firmware-device_snappautomotive_common" remote="snappautomotive" />  
-  <project path="device/snappautomotive/rpi" name="firmware-device_snappautomotive_rpi" remote="snappautomotive" />
-  <project path="vendor/snappautomotive/packages/maps" name="firmware-vendor_snappautomotive_packages_maps" remote="snappautomotive" />
+  <project path="device/snappautomotive/common" name="firmware-device_snappautomotive_common" revision="sa-main" remote="snappautomotive" />  
+  <project path="device/snappautomotive/rpi" name="firmware-device_snappautomotive_rpi" revision="sa-arpi-11" remote="snappautomotive" />
+  <project path="vendor/snappautomotive/packages/maps" name="firmware-vendor_snappautomotive_packages_maps" revision="sa-main" remote="snappautomotive" />
 
 </manifest>
